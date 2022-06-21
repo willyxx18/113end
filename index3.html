@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+	function eje1()
+	{
+		var nom; var fecha; var b;
+		nom=prompt("Ingrese su nombre: ");
+		fecha=parseInt(prompt("Ingrese su año de nacimiento: "));
+		b=2022-(fecha);
+		alert("Su edad es: "+b);
+	}
+	function Suma()
+	{
+		var n=parseInt(prompt("Ingrese 1er numero: "));
+		var n2=parseInt(prompt("Ingrese 2do numero: "));
+		var s=0;
+		s=n+n2;
+		document.write("La suma es: " +s);
+	}
+	function Resta()
+	{
+		var n=parseInt(prompt("Ingrese 1er numero: "));
+		var n2=parseInt(prompt("Ingrese 2do numero: "));
+		var s=0;
+		s=n-n2;
+		document.write("La resta es: " +s);
+	}
+	function Multiplicacion()
+	{
+		var n=parseInt(prompt("Ingrese 1er numero: "));
+		var n2=parseInt(prompt("Ingrese 2do numero: "));
+		var s=0;
+		s=n*n2;
+		document.write("La multiplicacion es: " +s);
+	}
+	function Division()
+	{
+		var n=parseInt(prompt("Ingrese 1er numero: "));
+		var n2=parseInt(prompt("Ingrese 2do numero: "));
+		var s=0;
+		s=n/n2;
+		document.write("La division es: " +s);
+	}
+	function Modulo()
+	{
+		var n=parseInt(prompt("Ingrese 1er numero: "));
+		var n2=parseInt(prompt("Ingrese 2do numero: "));
+		var s=0;
+		s=n%n2;
+		document.write("El resultado es: " +s);
+	}
+</script>
+</head>
+<body>
+<h1 onclick="eje1();">Ejercicio 1</h1>
+<br><br>
+<h3>Ejercicio 2<br>Operaciones Aritmeticas</h3>
+<button onclick="Suma();">Suma</button>
+<br><br>
+<button onclick="Resta();">Resta</button>
+<br><br>
+<button onclick="Multiplicacion();">Multiplicacion</button>
+<br><br>
+<button onclick="Division();">Division</button>
+<br><br>
+<button onclick="Modulo();">Modulo</button>
+</body>
+</html>
